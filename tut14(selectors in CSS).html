@@ -1,0 +1,121 @@
+<!-- with the help of the selectors we can identify the html elements at which css rule is applied -->
+<!-- selectors are used to target html elements -->
+<!-- with the help of selectors we can easily target one and more HTML elements easily -->
+
+
+<!-- types of selectors -->
+<!--1. class selectors -->
+<!-- 2.id selectors -->
+<!-- 3.element selectors -->
+<!-- 4.grouping selectors -->
+<!--5. universal Selectors -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+     <!-- internal CSS -->
+    <style>
+
+
+  p{/*target by element*/
+    color: black;
+    background-color: chartreuse;
+  }
+
+  /* id selector */
+  #jatin /*target by id*/
+  {
+
+    background-color: blue;
+  }
+
+
+  /* class selectors */
+  .bhagwan/*target by class*/
+  {
+    background-color: chocolate;
+    color: teal;
+
+
+
+  }
+
+
+  
+  .govind/*target by class*/
+  {
+    background-color: chocolate;
+    color: teal;
+
+  }
+
+  /* element selectors */
+  div
+  {
+    color: antiquewhite;
+    background: red;
+  }
+
+  /* target grouping selectors */
+  span, footer
+ 
+  {
+    background-color: hotpink;
+    color: black;
+
+  }
+/* targeted by element */
+
+  p
+  {
+    border: 2px solid black;
+  }
+
+
+
+  /* universal selectors */
+  *
+  {
+    background-color: chartreuse;
+    color: black;
+  }
+    </style>
+</head>
+<body>
+
+<p>this is geetansh</p>
+<p>this is mohit </p>
+<p id="jatin">this is jatin</p>
+<p>this is ayush </p>
+<p>this is prince</p>
+<p>this is shashank</p>
+
+
+<span>
+    this is my class
+
+</span>
+    
+<div class="bhagwan govind">
+
+    jai shree radhe
+</div>
+<br>
+<div>
+
+    meri pyaari maiya
+</div>
+
+<footer>
+    i love footer
+</footer>    
+</body>
+</html>
