@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline,external and internal css</title>
+
+    <!-- EXTERNAL CSS-- -->
+
+    <!-- Note: for external css we use link tag  -->
+    <link rel="stylesheet" href="tut13.css">
+
+<!-- one thing is : -->
+
+<!-- the precedence level of external and internal is decided acc to its naming .means if -->
+<!-- the external css link is included after internal so its priority  should be high; -->
+<!-- and if internal is written after external then  its priority is high -->
+
+
+<!-- we can also decide priority by placing !important attribute -->
+
+    <!--INTERNAL CSS-- -->
+    <style>
+        p
+        {
+             color: aqua;
+             background-color: coral !important;
+        }
+        
+        div
+        {
+            background-color: chartreuse;
+            color:darkslategray;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!--INLINE  CSS-->
+
+<h1>Inline CSS</h1>
+<p style="color:blue;background-color: black;"> jai shree radhe</p>
+<div>
+ jai shree krishna
+</div>
+
+<div id="ram">
+ jai shree ram
+
+</div>
+
+
+<div class="radha">
+shree radhe 
+
+
+</div>
+    
+</body>
+</html>
